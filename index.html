@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Port Handling Services</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        .navbar {
+            margin-bottom: 50px;
+        }
+        .hero-section {
+            height: 100vh;
+            background: url('/Port-Handling/image.png') center center/cover no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            text-align: center;
+        }
+        .hero-section h1 {
+            font-size: 4rem;
+        }
+        .hero-section p {
+            font-size: 1.5rem;
+        }
+        .services {
+            padding: 50px 0;
+        }
+        .services .fa {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+        .stats {
+            background: #f8f9fa;
+            padding: 50px 0;
+        }
+        .stats .fa {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        .contact {
+            padding: 50px 0;
+        }
+        .contact .form-control {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Port Handling</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#stats">Statistics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="container">
+            <h1>Efficient Port Handling Services</h1>
+            <p>Your trusted partner in maritime logistics</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services text-center">
+        <div class="container">
+            <h2 class="mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <i class="fa fa-ship"></i>
+                    <h4>Vessel Operations</h4>
+                    <p>Efficient management of vessel operations ensuring timely docking and departure.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-boxes"></i>
+                    <h4>Cargo Handling</h4>
+                    <p>Safe and secure cargo handling with the latest technology and equipment.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fa fa-truck-loading"></i>
+                    <h4>Logistics Services</h4>
+                    <p>Comprehensive logistics solutions for seamless port-to-door delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="stats text-center">
+        <div class="container">
+            <h2 class="mb-5">Our Statistics</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <i class="fa fa-ship"></i>
+                    <h4>500+</h4>
+                    <p>Vessels Handled</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-boxes"></i>
+                    <h4>1M+</h4>
+                    <p>Cargo Units</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-users"></i>
+                    <h4>200+</h4>
+                    <p>Clients</p>
+                </div>
+                <div class="col-md-3">
+                    <i class="fa fa-award"></i>
+                    <h4>50</h4>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="mb-5 text-center">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Port Handling Services. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
